@@ -91,3 +91,12 @@ main{
     background-color: white;
     padding: 10px;
 }
+.card:hover .show{
+    display: none;
+}
+.card:hover .hidden{
+    display: block;
+}
+.heart:hover .fas.fa-heart{
+    color: red;
+}
