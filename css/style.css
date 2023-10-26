@@ -13,9 +13,11 @@ body{
 .row{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .col-33{
-    width: calc(100% /3);
+    width: calc(100% /3 - 20px);
 }
 .img-full{
     max-width: 150px;
@@ -50,7 +52,7 @@ header{
     padding-right: 15px;
 }
 main{
-    padding-top: 100px;
+    padding: 100px 0;
 }
 .card{
     width: 100%;
